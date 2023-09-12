@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mercado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Nuestra tienda</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" alt="menu" class="menu-icono">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="https://www.tiendasjumbo.co/servicios">Servicios</a></li>
+                    <li><a href="#products">Productos</a></li>
+                    <li><a href="https://www.superinter.com.co/servicios">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/Carrito.png" alt="submenu" id="img-carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-text">
+                <span>Bienvenido a Nuestra Tienda</span>
+                <h1>Ofertas especiales</h1>
+                <p>tu destino para encontrar las mejores ofertas en productos frescos y comestibles de alta calidad. Queremos agradecer a nuestros leales clientes por su apoyo continuo, y para expresar nuestro agradecimiento, estamos emocionados de presentar nuestras Ofertas Especiales del Mes.</p>
+                <div class="buttons">
+                    <a href="https://www.drip.com/es/blog/ejemplos-de-promocion-de-ventas" class="btn-1">informacion</a> 
+                </div>
+            </div>
+            <div class="header-img">
+                <img src="images/bag.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section class="oferts container">
+        <div class="ofert-1 b1">
+            <div class="ofert-txt">
+                <h3>Frutas y Verduras Frescas</h3>
+                <p>Descubre una amplia selección</p>
+            </div>
+            <div class="ofert-img">
+                <img src="images/s1.png" alt="">
+            </div>
+        </div>
+        <div class="ofert-1 b2">
+            <div class="ofert-txt">
+                <h3>Carnes de Calidad</h3>
+                <p>Descubre una amplia selección</p>
+            </div>
+            <div class="ofert-img">
+                <img src="images/s2.png" alt="">
+            </div>
+        </div>
+        <div class="ofert-1 b3">
+            <div class="ofert-txt">
+                <h3>Productos Lácteos y Refrigerados</h3>
+                <p>Descubre una amplia selección</p>
+            </div>
+            <div class="ofert-img">
+                <img src="images/s3.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <main class="products container" id="products">
+            <h2>productos</h2>
+            <div class="box-container" id="lista-1">
+
+                <div class="box">
+                    <img src="images/pr1.png" alt="">
+                    <div class="product-txt">
+                        <h3>Leche</h3>
+                        <p>calidad premium</p>
+                        <p class="precio">$50</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="1">
+                            agregar al carrito
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/pr2.png" alt="">
+                    <div class="product-txt">
+                        <h3>Fresco</h3>
+                        <p>Fresco</p>
+                        <p class="precio">$20</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="12">
+                            agregar al carrito
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/pr3.png" alt="">
+                    <div class="product-txt">
+                        <h3>Torta</h3>
+                        <p>calidad premium</p>
+                        <p class="precio">$70</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="3">
+                            agregar al carrito
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/pr4.png" alt="">
+                    <div class="product-txt">
+                        <h3>Jugo Mora</h3>
+                        <p>calidad premium</p>
+                        <p class="precio">$100</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="4">
+                            agregar al carrito
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/pr5.png" alt="">
+                    <div class="product-txt">
+                        <h3>Caramalos</h3>
+                        <p>calidad premium</p>
+                        <p class="precio">$250</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="5">
+                            agregar al carrito
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/pr6.png" alt="">
+                    <div class="product-txt">
+                        <h3>Mani</h3>
+                        <p>calidad premium</p>
+                        <p class="precio">$200</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="6">
+                            agregar al carrito
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/pr7.png" alt="">
+                    <div class="product-txt">
+                        <h3>galletas</h3>
+                        <p>calidad premium</p>
+                        <p class="precio">$150</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="7">
+                            agregar al carrito
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/pr8.png" alt="">
+                    <div class="product-txt">
+                        <h3>leche</h3>
+                        <p>calidad premium</p>
+                        <p class="precio">$200</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="8">
+                            agregar al carrito
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/pr9.png" alt="">
+                    <div class="product-txt">
+                        <h3>Chocolate</h3>
+                        <p>calidad premium</p>
+                        <p class="precio">$350</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="9">
+                            agregar al carrito
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/pr10.png" alt="">
+                    <div class="product-txt">
+                        <h3>Crunch</h3>
+                        <p>calidad premium</p>
+                        <p class="precio">$120</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="10">
+                            agregar al carrito
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/pr11.png" alt="">
+                    <div class="product-txt">
+                        <h3>Maiz</h3>
+                        <p>calidad premium</p>
+                        <p class="precio">$230</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="11">
+                            agregar al carrito
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/pr12.png" alt="">
+                    <div class="product-txt">
+                        <h3>Platanitos</h3>
+                        <p>calidad premium</p>
+                        <p class="precio">$140</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="12">
+                            agregar al carrito
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-2" id="load-more">Cargar Mas</div>
+        
+    </main>
+
+    <section class="testimonial">
+        <span>Testimoniales</span>
+        <h2>Que opinan nuestros clientes</h2>
+        <div class="testimonial-content">
+            <div class="testimonial-1">
+                <p>
+                    Desde que comencé a comprar en Supermercado, mi vida se ha vuelto mucho más fácil. Los productos son frescos y de alta calidad, y las ofertas especiales hacen que mi presupuesto rinda mucho más. ¡No puedo imaginar hacer mis compras en ningún otro lugar!"
+                </p>
+                <img src="images/starts.png" alt="estrellas">
+                <h4>Testimonio de María</h4>
+            </div>
+            <div class="testimonial-1">
+                <p>
+                    "Me encanta la variedad de productos que ofrece Supermercado. Desde las carnes frescas hasta los productos orgánicos, siempre encuentro lo que necesito. Además, el personal es amable y servicial. ¡Definitivamente lo recomiendo!"
+                </p>
+                <img src="images/starts.png" alt="estrellas">
+                <h4>Testimonio de Juan</h4>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Universidad</h3>
+                <ul>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Producto</h3>
+                <ul>
+                    <li><a href="#">Politica</a></li>
+                    <li><a href="#">Aplicacion</a></li>
+                    <li><a href="#">Privacidad</a></li>
+                    <li><a href="#">Terminos</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Comunidad</h3>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Americana 2023</h3>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
